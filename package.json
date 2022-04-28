@@ -1,0 +1,19 @@
+{
+  "name": "05-Express-parte1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "debug": "^2.6.9",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "morgan": "^1.10.0"
+  }
+}
