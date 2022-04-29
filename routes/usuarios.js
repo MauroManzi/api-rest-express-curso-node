@@ -56,7 +56,7 @@ ruta.put('/:id',(req,res) =>{
 })
 
 
-ruta.delete('//:id',(req,res) =>{
+ruta.delete('/:id',(req,res) =>{
     let usuario = existeUsuario(req.params.id);
     if(!usuario) {
         res.status(404).send('El usuario no fue encontrado');
